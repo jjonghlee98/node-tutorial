@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "ejs": "^3.1.6",
+    "exact": "^0.8.0",
     "express": "^4.17.3"
   },
   "name": "app",
@@ -10,7 +11,7 @@
     "app": "bin/www.js"
   },
   "scripts": {
-	"start": "node ./bin/www.js",
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,8 +19,8 @@
   "license": "MIT",
   "homepage": "",
   "repository": {
-	  "type": "git",
-	  "url": ""
+    "type": "git",
+    "url": ""
   },
   "description": ""
 }
